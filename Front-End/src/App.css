@@ -1,0 +1,140 @@
+#root{
+  background-color: #E5E5E5;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #E5E5E5;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* My Custom Style */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+nav{
+  background-color: #FFC700;
+}
+
+.navbar-brand{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 23px;
+  margin-left: 65px;
+}
+
+nav form{
+  padding-right: 65px;
+}
+
+nav button{
+  width: 100px;
+  font-size: 14px;
+}
+
+.topText{
+  margin-top: 55px;
+}
+
+.topText h1{
+  font-family: 'Abhaya Libre', serif;
+  font-size: 55px;
+}
+
+.topLine{
+  border-top: 3px solid black;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.content .card{
+  width: 250px;
+}
+
+/* custom bootstrap button active state */
+.btn-dark:not(:disabled):not(.disabled):active:focus{
+  box-shadow: none;
+}
+
+.btn-dark:focus{
+  box-shadow: none;
+}
+
+/* custom bootstrap form input */
+.form-control{
+  background: rgba(210, 210, 210, 0.25);
+  border: 2px solid #766C6C;
+  color: #D2D2D2 25%;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  background: rgba(210, 210, 210, 0.25);
+  border-color: #282c34;
+  outline: none;
+}
+
+#input-white-bg{
+  background: #FFF;
+  border: 1px solid gray;
+}
+
+/* custom bootstrap dropdown */
+#dropdown-basic{
+  width: 70px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: -20px;
+  margin-right: 40px;
+}
+
+#file-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(210, 210, 210, 0.25);
+  color: #D2D2D2 25%;
+  padding: 0.3rem;
+  font-family: sans-serif;
+  border: 2px solid #766C6C;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+#dropdown-basic:focus{
+  box-shadow: none;
+}

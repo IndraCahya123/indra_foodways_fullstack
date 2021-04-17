@@ -1,0 +1,33 @@
+{
+  "name": "foodwaysbe",
+  "version": "1.0.0",
+  "description": "foodwaysBackEnd",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "client": "npm start --prefix ../Front-End",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "Indra Cahya Bali",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-group-routes": "^1.1.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "pg": "^7.4.3",
+    "sequelize": "^6.5.1",
+    "sequelize-cli": "^6.2.0",
+    "slugify": "^1.4.7"
+  },
+  "devDependencies": {
+    "concurrently": "6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
